@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  backend:
+    volumes:
+      - ./onlineChess/chess_game/database:/app/chess_game/database
+      - static:static
+    env_file:
+      -./onlineChess/.env
+    build:
+      context: ./onlineChess/
+    ports:
+      - 8000:8000
+    restart: on-failure

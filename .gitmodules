@@ -1,0 +1,6 @@
+[submodule "onlineChess"]
+	path = onlineChess
+	url = https://github.com/KNyathi/OnlineChess.git
+[submodule "ChessOnline"]
+	path = ChessOnline
+	url = https://github.com/TYSHARA/ChessOnline.git
